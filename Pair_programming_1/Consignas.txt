@@ -1,0 +1,4 @@
+Realizar una pagina html que cumpla las siguientes consignas
+1) Contenga una tabla
+2) Contenga un select
+3) Redireccione a una nueva pestaña
