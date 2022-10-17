@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+</head>
+<body>
+    <header>
+        <h1>Concecionaria Los Tres Chiflados</h1>
+    </header>
+
+    <div>
+    <table>
+		<thead>
+			<tr>
+				<th>Vehículo</th>
+				<th>Precio</th>
+				<th>Velocidad</th>
+				<th>Color</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>BMW M3</td>
+				<td>400.000 €</td>
+				<td>300 km/h</td>
+				<td>Blanco</td>
+			</tr>
+
+			<tr>
+				<td>BMW M5</td>
+				<td>30.000 €</td>
+				<td>360 km/h</td>
+				<td>Rojo</td>
+			</tr>
+
+			<tr>
+				<td>BMW X6</td>
+				<td>790.000 €</td>
+				<td>380 km/h</td>
+				<td>Negro</td>
+			</tr>
+
+		</tbody>
+	</table>
+
+    </div>
+        <div onsubmit="window.open(cars.value, '_blank')">
+            <form action="">
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars" >
+            <option value="m3.html">M3</option>
+            <option value="m5.html">M5</option>
+            <option value="x6.html">X6</option>
+        </select>
+        <button type="submit">VER FOTO</button>
+    </form>
+</div>
+</body>
+</html>
