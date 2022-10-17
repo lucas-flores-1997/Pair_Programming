@@ -13,6 +13,7 @@
 
     <div>
     <table>
+        <caption>Modelos Disponibles</caption>
 		<thead>
 			<tr>
 				<th>Vehículo</th>
@@ -25,22 +26,22 @@
 		<tbody>
 			<tr>
 				<td>BMW M3</td>
-				<td>400.000 €</td>
+				<td>100.000 €</td>
 				<td>300 km/h</td>
 				<td>Blanco</td>
 			</tr>
 
 			<tr>
 				<td>BMW M5</td>
-				<td>30.000 €</td>
+				<td>130.000 €</td>
 				<td>360 km/h</td>
 				<td>Rojo</td>
 			</tr>
 
 			<tr>
 				<td>BMW X6</td>
-				<td>790.000 €</td>
-				<td>380 km/h</td>
+				<td>190.000 €</td>
+				<td>320 km/h</td>
 				<td>Negro</td>
 			</tr>
 
@@ -48,16 +49,17 @@
 	</table>
 
     </div>
-        <div onsubmit="window.open(cars.value, '_blank')">
-            <form action="">
-        <label for="cars">Choose a car:</label>
+
+    <div>
+    	<form action="" onsubmit="window.open(cars.value, '_blank')">
+        <label for="cars">Elige un modelo:</label>
         <select name="cars" id="cars" >
             <option value="m3.html">M3</option>
             <option value="m5.html">M5</option>
             <option value="x6.html">X6</option>
         </select>
         <button type="submit">VER FOTO</button>
-    </form>
-</div>
+    	</form>
+	</div>
 </body>
 </html>
